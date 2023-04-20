@@ -6,7 +6,7 @@ Welcome to the Kutumb-Url-Extractor wiki!
 
 This Tool is made for extract urls from the website You can Use this Tool using These Commands 
 
-**Interface:
+**Interface:**
  
 ![Screenshot from 2023-04-20 12-23-53](https://user-images.githubusercontent.com/85324003/233295844-1ff4ad44-6005-4b5b-85ca-6fe0bb6b3a43.png)
 
