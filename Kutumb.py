@@ -84,12 +84,12 @@ hrefs, img_links, meta_tags = extract_urls(url)
 
 # Print the URLs for each section:
 print("Found {} standard links:".format(len(hrefs)))
-for url in hrefs:
-    print(url)
+for webs in hrefs:
+    print(url+webs)
 
 print("\nFound {} image links:".format(len(img_links)))
 for link in img_links:
-    print(link)
+    print(url+link)
 
 print("\nFound {} meta tags:".format(len(meta_tags)))
 for tag in meta_tags:
