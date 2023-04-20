@@ -3,4 +3,4 @@ Hey ! Trojan this side i am intruducing Kutumb url Extractor Tool that extract w
 
 
 
-!(https://ibb.co/cwT3Wr0)
+https://github.com/TR-TROJAN/Kutumb-Url-Extractor/issues/1#issuecomment-1515813815
