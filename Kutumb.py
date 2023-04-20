@@ -1,3 +1,9 @@
+# FIX THIS:
+# remove duplicates, list ko sort karo, ya tuple use kro.
+# url work nahi kar rha tha jo mene thik kiya he
+# you made a single url crawler, not website crawler. use loop, after extracting urls from href, src, etc attributes, again pass extracted url list to the same loop, do this untill every single url of website is printed out.
+# use multithreading for fast results
+
 import requests
 import bs4
 import os
@@ -66,7 +72,13 @@ def extract_urls(url):
 
 # Prompt the user for a website URL:
 url = input("Enter a website URL: ")
-
+if not url.startswith("http://") and not url.startswith("https://"):
+    url="http://"+url
+if url.endswith("/"):
+    url=url[:-1]
+print("[+] Target: "+url)
+    
+    
 # Extract URLs from the webpage:
 hrefs, img_links, meta_tags = extract_urls(url)
 
